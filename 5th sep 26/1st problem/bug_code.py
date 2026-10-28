@@ -4,4 +4,4 @@ def retry(func, times=3, delay=1):
             func()
         except Exception:
             time.sleep(delay)
-    raise Exception("failed")
+    raise Exception("failed...")
