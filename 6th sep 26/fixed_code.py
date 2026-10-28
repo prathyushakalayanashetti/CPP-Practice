@@ -10,7 +10,7 @@ def find_largest_even(numbers):
 
     return largest
 
-data = [7, 12, 5, 20, 3, 18, 30]
+data = [7, 12, 8, 20, 3, 18, 30]
 
 result = find_largest_even(data)
 
