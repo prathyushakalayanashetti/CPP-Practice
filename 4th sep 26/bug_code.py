@@ -7,6 +7,6 @@ def reverse_string(text: str) -> str:
        sequence[index_a], sequence[index_b] = sequence[index_b], sequence[index_a]
    while left_index < right_index:
        swap_elements(characters, left_index, right_index)
-       left_index += 1
+       left_index += 0
        right_index -= 1
    return "".join(characters)
