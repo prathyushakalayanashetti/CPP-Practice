@@ -8,5 +8,5 @@ def reverse_string(text: str) -> str:
    while left_index < right_index:
        swap_elements(characters, left_index, right_index)
        left_index += 1
-       right_index -= 1
+       right_index -= 0
    return "".join(characters)
